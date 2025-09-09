@@ -1,0 +1,84 @@
+.navpane{
+   
+    justify-content: center;
+    display:flex;
+    gap:1.2rem;
+
+}
+p{
+    font-size: 20;
+    font-weight: 1000;
+}
+select{
+    border:0;
+    background: transparent;
+    text-decoration: underline;
+    font-size: 30px;
+    color:#32327c;
+
+}
+body {
+    background-color:#f7bc4ebe;
+    color: #32327c;
+}
+a{
+    font-size: 30;
+    font-family: Lucida Sans;
+    color:#32327c;
+}
+a:hover{
+background-color: #d39f3f9f;
+}
+.cardImage{
+    width: 35vw;
+}
+
+.blog{
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    align-items: center;
+    width: 100vw;
+}
+.card{
+    margin-right:60vw;
+    margin-top: 10%;
+border: 5px solid #4e3f23c4  ;
+}
+p>button{
+    background-color: bisque;
+}
+button{
+    background-color:bisque;
+    font-size: 20;
+    border-width: 1;
+}
+button:hover
+{
+    background-color:rgb(253, 253, 253) ;
+}
+.footer{
+    margin-top: 10rem;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+
+}
+.footer>ul{
+    display: flex;
+    gap:2rem;
+}
+.icon>img{
+    width: 50px;
+}
+h1{
+    text-align: center;
+    color:#32327c ;
+}
+pre{
+    font-size: 20;
+}
+input{
+    background-color: rgb(253, 232, 207);
+    border:1px solix black;
+}
